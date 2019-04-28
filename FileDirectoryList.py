@@ -9,8 +9,8 @@ def DirectoryList():
     for root, dirs, files in os.walk("."):
         for name in files:
             print(" "*10,os.path.join(root, name))
-        #for name in dirs:
-            #print(os.path.join(root, name))
+        for name in dirs:
+            print(os.path.join(root, name))
             #print(os.path.join(str(root),str(files)))
 
         #for name in dirs:
