@@ -1,8 +1,10 @@
+#now cloned to GIT
+
 import os
 
-path=("C:\\Users\\Antony\\Documents")
+path = ("C:\\Users\\anton\\Documents")
 ListOfDirs=[]
-os.chdir(path)
+os.chdir (path)
 print(path)
 
 def DirectoryList():
